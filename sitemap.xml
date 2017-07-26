@@ -3,13 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.yinminnpapa.com/blog/creating-a-new-theme/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.yinminnpapa.com/blog/migrate-from-jekyll/</loc>
-    <lastmod>2014-03-10T00:00:00+00:00</lastmod>
+    <loc>https://www.yinminnpapa.com/publications/</loc>
+    <lastmod>2017-07-22T10:43:29+09:00</lastmod>
   </url>
   
   <url>
@@ -23,24 +18,14 @@
   </url>
   
   <url>
-    <loc>https://www.yinminnpapa.com/blog/goisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.yinminnpapa.com/blog/hugoisforlovers/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.yinminnpapa.com/blog/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-21T16:19:39+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.yinminnpapa.com/</loc>
-    <lastmod>2014-09-28T00:00:00+00:00</lastmod>
+    <lastmod>2017-07-22T10:43:29+09:00</lastmod>
     <priority>0</priority>
   </url>
   

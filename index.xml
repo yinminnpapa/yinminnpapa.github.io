@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Osprey Example Site</title>
+    <title>Yin Minn Pa Pa</title>
     <link>https://www.yinminnpapa.com/</link>
-    <description>Recent content on Osprey Example Site</description>
+    <description>Recent content on Yin Minn Pa Pa</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>true</copyright>
-    <lastBuildDate>Sun, 28 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Jul 2017 10:43:29 +0900</lastBuildDate>
     
 	<atom:link href="https://www.yinminnpapa.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Creating a New Theme</title>
-      <link>https://www.yinminnpapa.com/blog/creating-a-new-theme/</link>
-      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      <title>Publications</title>
+      <link>https://www.yinminnpapa.com/publications/</link>
+      <pubDate>Sat, 22 Jul 2017 10:43:29 +0900</pubDate>
       
-      <guid>https://www.yinminnpapa.com/blog/creating-a-new-theme/</guid>
-      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content. I&amp;rsquo;ll explain how Hugo uses templates and how you can organize your templates to create a theme. I won&amp;rsquo;t cover using CSS to style your theme.
-We&amp;rsquo;ll start with creating a new site with a very basic template.</description>
-    </item>
-    
-    <item>
-      <title>Migrate to Hugo from Jekyll</title>
-      <link>https://www.yinminnpapa.com/blog/migrate-from-jekyll/</link>
-      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.yinminnpapa.com/blog/migrate-from-jekyll/</guid>
-      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there. With Jekyll, something that looked like
-▾ &amp;lt;root&amp;gt;/ ▾ images/ logo.png  should become
-▾ &amp;lt;root&amp;gt;/ ▾ static/ ▾ images/ logo.png  Additionally, you&amp;rsquo;ll want any files that should reside at the root (such as CNAME) to be moved to static.</description>
+      <guid>https://www.yinminnpapa.com/publications/</guid>
+      <description>Yin Minn Pa Pa, Katsunari Yoshioka, Tsutomu Matsumoto “ Search Engine Based Investigation on Misconfiguration of Zone Transfer”, International Workshop on Security (IWSEC-2012), Fukuoka, Japan, 2012 November, {POSTER}. pdf
+ Yin Minn Pa Pa, Katsunari Yoshioka, Tsutomu Matsumoto &amp;ldquo;Search Engine Based Investigation on Misconfiguration of Zone Transfer”, Asia Joint Conference on Information Security (Asia-JCIS), Seoul, Korea, 2013 July.{Best Paper Award} pdf
+ Yin Minn Pa Pa, Daisuke Makita, Katsunari Yoshioka, Tsutomu Matsumoto “Finding Malicious Authoritative DNS server”, Information and Communication System Security (ICSS), Yokohama, Japan, 2013 March.</description>
     </item>
     
     <item>
@@ -51,8 +41,10 @@ We&amp;rsquo;ll start with creating a new site with a very basic template.</desc
       <pubDate>Tue, 27 Jun 2017 17:39:21 -0700</pubDate>
       
       <guid>https://www.yinminnpapa.com/about/</guid>
-      <description>Welcome to the Osprey Theme To create an about section, generate an about.md file in your content folder by doing:
-$ hugo new about.md  Then add your own content to the markdown file. Everything in the file will be generated to show here on the home page.</description>
+      <description>Hello my Dear Reader! I am Yin Minn Pa Pa, originally from Myanmar and currently working at Japan as security researcher. I finished Ph.D in computer engineering in 2016 from Yokohama National University, Japan.
+My research interests include:
+ Network security Malware Analysis IoT security Web security  This site is made to document what I learn and share it to burmese learners.
+Most contents will be written in burmese because learning with mother toung is the easiest way to grasp the point.</description>
     </item>
     
     <item>
@@ -89,30 +81,6 @@ $ hugo new about.md  Then add your own content to the markdown file. Everything 
       
       <guid>https://www.yinminnpapa.com/gallery/rugged-fellows-guide/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>(Hu)go Template Primer</title>
-      <link>https://www.yinminnpapa.com/blog/goisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.yinminnpapa.com/blog/goisforlovers/</guid>
-      <description>Hugo uses the excellent go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website. If you have used other template systems from different languages or frameworks you will find a lot of similarities in go templates.
-This document is a brief primer on using go templates.</description>
-    </item>
-    
-    <item>
-      <title>Getting Started with Hugo</title>
-      <link>https://www.yinminnpapa.com/blog/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://www.yinminnpapa.com/blog/hugoisforlovers/</guid>
-      <description>Step 1. Install Hugo Goto hugo releases and download the appropriate version for your os and architecture.
-Save it somewhere specific as we will be using it in the next step.
-More complete instructions are available at installing hugo
-Step 2. Build the Docs Hugo has its own example site which happens to also be the documentation site you are reading right now.
-Follow the following steps:
- Clone the hugo repository Go into the repo Run hugo in server mode and build the docs Open your browser to http://localhost:1313  Corresponding pseudo commands:</description>
     </item>
     
   </channel>
