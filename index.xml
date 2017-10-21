@@ -5,8 +5,7 @@
     <link>https://www.yinminnpapa.com/</link>
     <description>Recent content on Yin Minn Pa Pa</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <copyright>true</copyright>
+    <language>en</language>
     <lastBuildDate>Sat, 22 Jul 2017 10:43:29 +0900</lastBuildDate>
     
 	<atom:link href="https://www.yinminnpapa.com/index.xml" rel="self" type="application/rss+xml" />
@@ -24,11 +23,11 @@
     </item>
     
     <item>
-      <title>Test</title>
-      <link>https://www.yinminnpapa.com/blog/test/</link>
-      <pubDate>Fri, 21 Jul 2017 16:19:39 +0900</pubDate>
+      <title>First</title>
+      <link>https://www.yinminnpapa.com/post/first/</link>
+      <pubDate>Fri, 21 Jul 2017 00:35:11 +0900</pubDate>
       
-      <guid>https://www.yinminnpapa.com/blog/test/</guid>
+      <guid>https://www.yinminnpapa.com/post/first/</guid>
       <description>မြန်စံ မြန်မာ၃စတန်း
 မြန်မာ၃ရိုးရိုး
 မြန်မာ၃ရိုးရိုး
@@ -36,49 +35,13 @@
     </item>
     
     <item>
-      <title>About</title>
+      <title>Hello my Dear Reader!</title>
       <link>https://www.yinminnpapa.com/about/</link>
       <pubDate>Tue, 27 Jun 2017 17:39:21 -0700</pubDate>
       
       <guid>https://www.yinminnpapa.com/about/</guid>
-      <description>Hello my Dear Reader! I am Yin Minn Pa Pa, originally from Myanmar and currently working at Japan as security researcher. I finished Ph.D in computer engineering from Yokohama National University, Japan.This site is made to document my professional life and share it with you. I will try to write most of my blog posts in Burmese language so that Burmese learners can learn security easily.
+      <description>I am Yin Minn Pa Pa, originally from Myanmar and currently working at Japan as security researcher. I finished Ph.D in computer engineering from Yokohama National University, Japan.This site is made to document my professional life and share it with you. I will try to write most of my blog posts in Burmese language so that Burmese learners can learn security easily.
 You can find list of my research publications here.</description>
-    </item>
-    
-    <item>
-      <title>Toma Nistor</title>
-      <link>https://www.yinminnpapa.com/gallery/toma-nistor/</link>
-      <pubDate>Mon, 15 May 2017 22:25:16 -0700</pubDate>
-      
-      <guid>https://www.yinminnpapa.com/gallery/toma-nistor/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>https://www.yinminnpapa.com/gallery/hugo/</link>
-      <pubDate>Mon, 15 May 2017 22:25:02 -0700</pubDate>
-      
-      <guid>https://www.yinminnpapa.com/gallery/hugo/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Osprey</title>
-      <link>https://www.yinminnpapa.com/gallery/osprey/</link>
-      <pubDate>Mon, 15 May 2017 21:57:17 -0700</pubDate>
-      
-      <guid>https://www.yinminnpapa.com/gallery/osprey/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rugged Fellows Guide</title>
-      <link>https://www.yinminnpapa.com/gallery/rugged-fellows-guide/</link>
-      <pubDate>Mon, 15 May 2017 21:52:57 -0700</pubDate>
-      
-      <guid>https://www.yinminnpapa.com/gallery/rugged-fellows-guide/</guid>
-      <description></description>
     </item>
     
   </channel>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Yin Minn Pa Pa</title>
+    <link>https://www.yinminnpapa.com/post/</link>
+    <description>Recent content in Posts on Yin Minn Pa Pa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 21 Jul 2017 00:35:11 +0900</lastBuildDate>
+    
+	<atom:link href="https://www.yinminnpapa.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First</title>
+      <link>https://www.yinminnpapa.com/post/first/</link>
+      <pubDate>Fri, 21 Jul 2017 00:35:11 +0900</pubDate>
+      
+      <guid>https://www.yinminnpapa.com/post/first/</guid>
+      <description>မြန်စံ မြန်မာ၃စတန်း
+မြန်မာ၃ရိုးရိုး
+မြန်မာ၃ရိုးရိုး
+မြန်မာလိုမြင်ရပါသလား</description>
+    </item>
+    
+  </channel>
+</rss>

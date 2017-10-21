@@ -1,383 +1,449 @@
 <!DOCTYPE html>
-<html lang="en-US">
-    <head>
-        
+<html lang="en">
+  <head>
+	<meta name="generator" content="Hugo 0.25" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="referrer" content="no-referrer">
+    <base href="https://www.yinminnpapa.com">
+    
 
-        <title>
-            
-            
-                Yin Minn Pa Pa
-            
-        </title>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400' rel='stylesheet' type='text/css'>
 
-        <meta name="title" content="Yin Minn Pa Pa">
+    <link rel="icon" type="image/png" href="https://www.yinminnpapa.com/favicon_16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="https://www.yinminnpapa.com/favicon_32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://www.yinminnpapa.com/favicon_128x128.png" sizes="128x128">
 
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="chrome=1">
-        <meta name="HandheldFriendly" content="True">
-        <meta name="MobileOptimized" content="320">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="referrer" content="no-referrer-when-downgrade">
-        <meta name="generator" content="">
-        <base href="https://www.yinminnpapa.com">
-        <meta name="description" content="Security Researcher based in Japan">
-        
-        <meta name="author" content="Yin Minn Pa Pa">
-        
-        <meta property="og:title" content="Yin Minn Pa Pa">
-        <meta property="og:type" content="website">
-        <meta property="og:url" content="https://www.yinminnpapa.com">
-        
-        <meta property="og:description" content="Security Researcher based in Japan">
-        
+    <title>
+      
+      
+        Yin Minn Pa Pa
+      
+    </title>
+    <link rel="canonical" href="https://www.yinminnpapa.com/">
 
-        
-        <link rel="apple-touch-icon" sizes="57x57" href="https://www.yinminnpapa.com/images/logo/apple-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="https://www.yinminnpapa.com/images/logo/apple-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="https://www.yinminnpapa.com/images/logo/apple-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="https://www.yinminnpapa.com/images/logo/apple-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="https://www.yinminnpapa.com/images/logo/apple-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="https://www.yinminnpapa.com/images/logo/apple-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="https://www.yinminnpapa.com/images/logo/apple-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="https://www.yinminnpapa.com/images/logo/apple-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="https://www.yinminnpapa.com/images/logo/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="images/logo/android-icon-192x192.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="https://www.yinminnpapa.com/images/logo/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="https://www.yinminnpapa.com/images/logo/favicon-96x96.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="https://www.yinminnpapa.com/images/logo/favicon-16x16.png">
-        <link rel="manifest" href="images/logo/manifest.json">
-        <meta name="msapplication-TileColor" content="#FFF">
-        <meta name="msapplication-TileImage" content="/images/logo/ms-icon-144x144.png">
-        <meta name="theme-color" content="#FFF">
-        
+    <style>
+  * {
+    border:0;
+    font:inherit;
+    font-size:100%;
+    vertical-align:baseline;
+    margin:0;
+    padding:0;
+    color: black;
+    text-decoration-skip: ink;
+  }
 
-        <link rel="canonical" href="https://www.yinminnpapa.com/">
-        <link href="https://www.yinminnpapa.com/index.xml" rel="alternate" type="application/rss+xml" title="Yin Minn Pa Pa">
-        <link rel="stylesheet" href="https://www.yinminnpapa.com/styles/main.css" type="text/css">
-        <style>
+  @font-face{
+    font-family:'MyanmarUnicode';
+    src:url('../fonts/mmrCensus.v4.sh.mif.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+ }
 
-@font-face{
-font-family:'MyanmarUnicode';
-src:url('../fonts/mmrCensus.v4.sh.mif.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
-}
+  body {
+    font-family: 'MyanmarUnicode', 'Open Sans', 'Myriad Pro', Myriad, sans-serif;
+    font-size:17px;
+    line-height:160%;
+    color:#1d1313;
+    max-width:700px;
+    margin:auto;
+  }
 
-body{
-font-family: "MyanmarUnicode" !important;
-font-size: normal
-}
+  p {
+    margin: 20px 0;
+  }
 
+  a img {
+    border:none;
+  }
+
+  img {
+    margin: 10px auto 10px auto;
+    max-width: 100%;
+    display: block;
+  }
+
+  .left-justify {
+    float: left;
+  }
+
+  .right-justify {
+    float:right;
+  }
+
+  pre, code {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    background-color: #f7f7f7;
+  }
+
+  code {
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  pre {
+    margin-top: 0;
+    margin-bottom: 16px;
+    word-wrap: normal;
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+  }
+
+  pre>code {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    word-break: normal;
+    white-space: pre;
+    background: transparent;
+    border: 0;
+  }
+
+  pre code {
+    display: inline;
+    max-width: auto;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    line-height: inherit;
+    word-wrap: normal;
+    background-color: transparent;
+    border: 0;
+  }
+
+  pre code::before,
+  pre code::after {
+    content: normal;
+  }
+
+  em,q,em,dfn {
+    font-style:italic;
+  }
+
+  .sans,html .gist .gist-file .gist-meta {
+    font-family:"MyanmarUnicode","Open Sans","Myriad Pro",Myriad,sans-serif;
+  }
+
+  .mono,pre,code,tt,p code,li code {
+    font-family:"MyanmarUnicode",Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
+  }
+
+  .heading,.serif,h1,h2,h3 {
+    font-family:"MyanmarUnicode","Old Standard TT",serif;
+  }
+
+  strong {
+    font-weight:600;
+  }
+
+  q:before {
+    content:"\201C";
+  }
+
+  q:after {
+    content:"\201D";
+  }
+
+  del,s {
+    text-decoration:line-through;
+  }
+
+  blockquote {
+    font-family:"MyanmarUnicode","Old Standard TT",serif;
+    text-align:center;
+    padding:50px;
+  }
+
+  blockquote p {
+    display:inline-block;
+    font-style:italic;
+  }
+
+  blockquote:before,blockquote:after {
+    font-family:"MyanmarUnicode","Old Standard TT",serif;
+    content:'\201C';
+    font-size:35px;
+    color:#403c3b;
+  }
+
+  blockquote:after {
+    content:'\201D';
+  }
+
+  hr {
+    width:40%;
+    height: 1px;
+    background:#403c3b;
+    margin: 25px auto;
+  }
+
+  h1 {
+    font-size:35px;
+  }
+
+  h2 {
+    font-size:28px;
+  }
+
+  h3 {
+    font-size:22px;
+    margin-top:18px;
+  }
+
+  h1 a,h2 a,h3 a {
+    text-decoration:none;
+  }
+
+  h1,h2 {
+    margin-top:28px;
+  }
+
+  #sub-header, time {
+    color:#403c3b;
+    font-size:13px;
+  }
+
+  #sub-header {
+    margin: 0 4px;
+  }
+
+  #nav h1 a {
+    font-size:35px;
+    color:#1d1313;
+    line-height:120%;
+  }
+
+  .posts_listing a,#nav a {
+    text-decoration: none;
+  }
+
+  li {
+    margin-left: 20px;
+  }
+
+  ul li {
+    margin-left: 5px;
+  }
+
+  ul li {
+    list-style-type: none;
+  }
+  ul li:before {
+    content:"\00BB \0020";
+  }
+
+  #nav ul li:before, .posts_listing li:before {
+    content:'';
+    margin-right:0;
+  }
+
+  #content {
+    text-align:left;
+    width:100%;
+    font-size:15px;
+    padding:60px 0 80px;
+  }
+
+  #content h1,#content h2 {
+    margin-bottom:5px;
+  }
+
+  #content h2 {
+    font-size:25px;
+  }
+
+  #content .entry-content {
+    margin-top:15px;
+  }
+
+  #content time {
+    margin-left:3px;
+  }
+
+  #content h1 {
+    font-size:30px;
+  }
+
+  .highlight {
+    margin: 10px 0;
+  }
+
+  .posts_listing {
+    margin:0 0 50px;
+  }
+
+  .posts_listing li {
+    margin:0 0 25px 15px;
+  }
+
+  .posts_listing li a:hover,#nav a:hover {
+    text-decoration: underline;
+  }
+
+  #nav {
+    text-align:center;
+    position:static;
+    margin-top:60px;
+  }
+
+  #nav ul {
+    display: table;
+    margin: 8px auto 0 auto;
+  }
+
+  #nav li {
+    list-style-type:none;
+    display:table-cell;
+    font-size:15px;
+    padding: 0 20px;
+  }
+
+  #links {
+    margin: 50px 0 0 0;
+  }
+
+  #links :nth-child(2) {
+    float:right;
+  }
+
+  #not-found {
+    text-align: center;
+  }
+
+  #not-found a {
+    font-family:"MyanmarUnicode","Old Standard TT",serif;
+    font-size: 200px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 225px;
+  }
+
+  @media (max-width: 750px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:28px;
+    }
+
+    #nav li {
+      font-size:13px;
+      padding: 0 15px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:50px;
+      font-size:14px;
+    }
+
+    #content h1 {
+      font-size:25px;
+    }
+
+    #content h2 {
+      font-size:22px;
+    }
+
+    .posts_listing li div {
+      font-size:12px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    body {
+      padding-left:20px;
+      padding-right:20px;
+    }
+
+    #nav h1 a {
+      font-size:22px;
+    }
+
+    #nav li {
+      font-size:12px;
+      padding: 0 10px;
+    }
+
+    #content {
+      margin-top:0;
+      padding-top:20px;
+      font-size:12px;
+    }
+
+    #content h1 {
+      font-size:20px;
+    }
+
+    #content h2 {
+      font-size:18px;
+    }
+
+    .posts_listing li div{
+      font-size:12px;
+    }
+  }
 </style>
 
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/styles/github.min.css">
+
+    
+      <link href="https://www.yinminnpapa.com/index.xml" rel="alternate" type="application/rss+xml" title="Yin Minn Pa Pa" />
+    
+  </head>
+
+  <body>
+    <section id=nav>
+      <h1><a href="https://www.yinminnpapa.com/">Yin Minn Pa Pa</a></h1>
+      <ul>
         
-    </head>
-
-    <body>
+          <li><a href="https://www.yinminnpapa.com/about/">About</a></li>
         
-
+          <li><a href="https://www.yinminnpapa.com/post/">Blog</a></li>
         
-        <header class="row middle-xs center-xs">
-            <div class="col-xs-12">
-                <div class="row middle-xs center-xs">
-                    <div class="col-xs-12"><img src="https://www.yinminnpapa.com/images/inburmese.png" alt="Yin Minn Pa Pa"></div>
-                </div>
-                <div class="row middle-xs center-xs">
-                    <div class="col-xs-12"><h1>Yin Minn Pa Pa<span class="cursor">|</span></h1></div>
-                </div>
-            </div>
-        </header>
+          <li><a href="https://www.yinminnpapa.com/publications/">Publications</a></li>
         
-
-        <nav class="row middle-xs center-xs">
-            <div class="col-xs-6 col-sm-1 logo">
-                <a href="https://www.yinminnpapa.com"><img src="https://www.yinminnpapa.com/images/home.png" alt="Yin Minn Pa Pa"></a>
-            </div>
-            
-            <div class="col-xs-3 col-sm-2"><h3><a href="https://www.yinminnpapa.com/#about">About</a></h3></div>
-            
-            <div class="col-xs-3 col-sm-2"><h3><a href="https://www.yinminnpapa.com/#publications">Publications</a></h3></div>
-            
-            <div class="col-xs-3 col-sm-2"><h3><a href="https://www.yinminnpapa.com/#blog">Blog</a></h3></div>
-            
-            <div class="col-xs-3 col-sm-2"><h3><a href="https://www.yinminnpapa.com/#contact">Contact</a></h3></div>
-            
-            <div class="col-xs-6 col-sm-1 nav-toggle">
-                <a href="" class="nav-icon" onclick="return false"><img src="https://www.yinminnpapa.com/images/icon-menu.png" alt="Open Menu"><img src="https://www.yinminnpapa.com/images/icon-x.png" alt="Close Menu" style="display: none;"></a>
-            </div>
-        </nav>
-        <section class="nav-full row middle-xs center-xs">
-            <div class="col-xs-12">
-                <div class="row middle-xs center-xs">
-                    
-                    <div class="col-xs-12"><h1><a href="https://www.yinminnpapa.com/#about">About</a></h1></div>
-                    
-                    <div class="col-xs-12"><h1><a href="https://www.yinminnpapa.com/#publications">Publications</a></h1></div>
-                    
-                    <div class="col-xs-12"><h1><a href="https://www.yinminnpapa.com/#blog">Blog</a></h1></div>
-                    
-                    <div class="col-xs-12"><h1><a href="https://www.yinminnpapa.com/#contact">Contact</a></h1></div>
-                    
-                </div>
-            </div>
-        </section>
-        <main>
+      </ul>
+    </section>
 
 
+<section id=content>
+  <ul class=posts_listing>
+    
+       
+      
+      
+        <h3><a href="https://www.yinminnpapa.com/post/first/">First</a></h3>
+        <article >
+    <header>
+      <div>Fri, Jul 21, 2017 </div>
+    </header>
 
+    မြန်စံ မြန်မာ၃စတန်း
+မြန်မာ၃ရိုးရိုး
+မြန်မာ၃ရိုးရိုး
+မြန်မာလိုမြင်ရပါသလား
+    <footer>
+        <a href='https://www.yinminnpapa.com/post/first/'><nobr>Read more →</nobr></a>
+    </footer>
+</article>
 
-<section class="about" id="about">
-    <div class="container middle-xs">
-        
-        <div class="row">
-            <div class="col-xs-12 middle-xs">
-                
-                    
-
-<h1 id="hello-my-dear-reader">Hello my Dear Reader!</h1>
-
-<p>I am Yin Minn Pa Pa, originally from Myanmar and currently working at Japan as security researcher. I finished Ph.D in computer engineering from Yokohama National University, Japan.This site is made to document my professional life and share it with you. I will try to write most of my blog posts in Burmese language so that Burmese learners can learn security easily.</p>
-
-<p>You can find list of my research publications <a href="https://www.yinminnpapa.com/#publications"><span style="color:red">here<span></a>.</p>
-
-<p>Here is brief about me.</p>
-
-<p>My research interests:</p>
-
-<ul>
-<li>Network security</li>
-<li>Malware Analysis</li>
-<li>IoT security</li>
-<li>Web security</li>
-<li>Wireless Security</li>
-</ul>
-
-<p>My professional experiences:</p>
-
-<ol>
-<li>IT engineer at Ministry of Construction, Myanmar</li>
-<li>Research Assistant at Yokohama National University, Japan</li>
-<li>Internship at National Institute of Communications Technology, Japan</li>
-<li>Collaboration research with Delft University of Technology, Netherlands</li>
-<li>Collaboration research with Saarland University, Germany</li>
-<li>Collaboration research with National Institute of Communications Technology, Japan</li>
-<li>Consultant at PwC, Japan</li>
-<li>Researcher at Cyber Security Laboratory, PwC Cyber Services, Japan</li>
-</ol>
-
-<p>Universities where I did technical talks:</p>
-
-<ol>
-<li>College of Computer and Information Science, Northeastern University in Boston, USA</li>
-<li>Computer Science Department, University of California, Santa Barbara, USA</li>
-<li>Faculty of Technology, Delft University of Technology, Netherlands</li>
-</ol>
-
-<p>My Community services:</p>
-
-<ol>
-<li>Subviewer, Building Analysis Datasets and Gathering Experience Returns for Security (BADGER), 2015, Kyoto, Japan</li>
-<li>Committee Member, The 11th International Workshop on Security (IWSEC), 2016, Tokyo, Japan</li>
-<li>Committee Member, The 12th International Workshop on Security (IWSEC), 2017, Hiroshima, Japan</li>
-</ol>
-
-<p>Research Awards:</p>
-
-<ol>
-<li>Best Paper Award, Asia-JCIS, 2013, Korea.</li>
-<li>Best Technical Report Award of Year, Information and Communication System Security (ICSS), 2013, Japan.</li>
-<li>Best Paper Award, IPSJ, 2016 (as co-author), Japan.</li>
-</ol>
-
-<p>Scholarship Awards:</p>
-
-<ol>
-<li>World Bank Scholarship, Infrastructure Management Program at YNU, Japan.</li>
-<li>Iwatani International Scholarships (The Iwatani Naoji Foundation), Japan.</li>
-<li>Honjo International Scholarships (Honjo International Scholarship Foundation), Japan.</li>
-<li>Research Support Scholarship for Woman Technicians, Yokohama National University, Japan.</li>
-<li>USENIX Security, Grants for Women Researchers.</li>
-</ol>
-
-<p>Philosophy I love:</p>
-
-<ol>
-<li>Be kind to people and be the brigntening star at the corner where you are !</li>
-<li>Nothing is permanent</li>
-<li>The root of suffering is attachments</li>
-</ol>
-
-<p>Things I like to do:</p>
-
-<ol>
-<li>Long hour walking</li>
-<li>Cooking new cusine</li>
-<li>Reading (mostly philosophy)</li>
-<li>Meditation</li>
-<li>Playing with robots</li>
-</ol>
-
-<p>Thanks for reading!</p>
-
-<p>Yin Minn Pa Pa</p>
-
-                
-            </div>
-        </div>
-    </div>
+	 
+      
+       
+       
+  </ul>
 </section>
 
-
-
-
-
-<section class="publications" id="publications">
-    <div class="container">
-        <div class="row center-xs">
-            <div class="col-xs-12"><h1>List of papers</h1></div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 middle-xs">
-                
-                    <ol>
-<li><p><strong><strong><em>Yin Minn Pa Pa</em></strong></strong>, Katsunari Yoshioka, Tsutomu Matsumoto “ Search Engine Based Investigation on Misconfiguration of Zone Transfer”, International Workshop on Security (IWSEC-2012), Fukuoka, Japan, 2012 November, {POSTER}.  <a href="https://github.com/yinminnpapa/website_data/raw/master/papers/paper_1.pdf"><span style="color:red">pdf<span></a></p></li>
-
-<li><p><strong><strong><em>Yin Minn Pa Pa</em></strong></strong>, Katsunari Yoshioka, Tsutomu Matsumoto &ldquo;Search Engine Based Investigation on Misconfiguration of Zone Transfer”, Asia Joint Conference on Information Security (Asia-JCIS), Seoul, Korea, 2013 July.{<strong>Best Paper Award</strong>}  <a href="https://github.com/yinminnpapa/website_data/raw/master/papers/paper_2.pdf"><span style="color:red">pdf<span></a></p></li>
-
-<li><p><strong><strong><em>Yin Minn Pa Pa</em></strong></strong>, Daisuke Makita, Katsunari Yoshioka, Tsutomu Matsumoto “Finding Malicious Authoritative DNS server”, Information and Communication System Security (ICSS), Yokohama, Japan, 2013 March.{<strong>Bet Technical Report Award of the Year</strong>}  <a href="https://github.com/yinminnpapa/website_data/raw/master/papers/paper_3.pdf"><span style="color:red">pdf<span></a></p></li>
-
-<li><p>Daisuke Makita, <strong><strong><em>Yin Minn Pa Pa</em></strong></strong>, Katsunari Yoshioka, Tsutomu Matsumoto “A Method for Detecting Malware Infected Hosts with Similarity of Name Resolution Behavior”, Symposium on Cryptography and Information Security (SCIS), Kyoto, Japan, 2013 January.  <a href="https://github.com/yinminnpapa/website_data/raw/master/papers/paper_4.pdf"><span style="color:red">pdf<span></a></p></li>
-
-<li><p><strong><strong><em>Yin Minn Pa Pa</em></strong></strong>, Katsunari Yoshioka, Tsutomu Matsumoto “Detecting Malicious Domains and Authoritative Name Servers Based on Their Distinct Mappings to IP Addresses”, Journal of Information Processing, Japan, Vol.23, No.5, pages 623-632, March 2015.  <a href="https://github.com/yinminnpapa/website_data/raw/master/papers/paper_5.pdf"><span style="color:red">pdf<span></a></p></li>
-
-<li><p><strong><strong><em>Yin Minn Pa Pa</em></strong></strong>, Shogo Suzuki, Katsunari Yoshioka, Tsutomu Matsumoto, Takahiro Kasama, Christian Rossow “IoTPOT: Analysing the Rise of IoT Compromises”, 9th USENIX Workshop on Offensive Technologies (WOOT’ 2015), Washington D.C, United States, August 2015.  <a href="https://github.com/yinminnpapa/website_data/raw/master/papers/paper_6.pdf"><span style="color:red">pdf<span></a></p></li>
-
-<li><p>Katsunari Yoshioka, <strong><strong><em>Yin Minn Pa Pa</em></strong></strong>, Shogo Suzuki, Naoki Watanabe, Sou Nakayama,Toshiya Shimura, Haoyuan Xu, Junji Shikata, Tsutomu Matsumoto, Koji Nakao, Takeo Hariu, Makoto Iwamura, Takeshi Yagi, Mitsuaki Akiyama, Masato Terada, Shigeyoshi Shima,Masafumi Watanabe, Takahiro Kakumaru, Masaru Kawakita, Masahiro Yamada, Daisuke Inoue “Collection and Analysis of Cyber Security Data by Active and Passive Monitoring”,Computer Security Symposium (CSS), Nagasaki, Japan, 2015 October.  <a href="https://github.com/yinminnpapa/website_data/raw/master/papers/paper_7.pdf"><span style="color:red">pdf<span></a></p></li>
-
-<li><p><strong><strong><em>Yin Minn Pa Pa</em></strong></strong>, Shogo Suzuki, Katsunari Yoshioka, Tsutomu Matsumoto, Takahiro Kasama, Christian Rossow “IoTPOT: A Novel Honeypot for Revealing Current IoT Threats”, Journal of Information Processing, Japan, Vol.24, No.3. March 2016.  <a href="https://github.com/yinminnpapa/website_data/raw/master/papers/paper_8.pdf"><span style="color:red">pdf<span></a></p></li>
-
-<li><p>Shogo Suzuki, <strong><strong><em>Yin Minn Pa Pa</em></strong></strong>, Yuta Ezawa, Sou Nakayama, Ying Tie, Katsunari Yoshioka, Tsutomu Matsumoto, &ldquo;Improving IoTPOT for Observing Various Attacks Target Embedded Devices&rdquo;, Information and Communication System Security (ICSS), Kyoto, Japan, 2016, March.  <a href="https://github.com/yinminnpapa/website_data/raw/master/papers/paper_9.pdf"><span style="color:red">pdf<span></a></p></li>
-
-<li><p>Akira Yokoyama, Kou Ishii, Rui Tanabe, <strong><strong><em>Yin Minn Pa Pa</em></strong></strong>, Katsunari Yoshioka, Tsutomu Matsumoto, Takahiro Kasama, Daisuke Inoue, Michael Brengel, Michael Backes, Christian Rossow. &ldquo;Sandprint: Fingerprinting Malware Sandboxes to Provide Intelligence for Sandbox Evasion&rdquo;. 19th International Symposium on Research in Attacks, Intrusions and Defenses, RAID 2016, Paris, France.  <a href="https://github.com/yinminnpapa/website_data/raw/master/papers/paper_10.pdf"><span style="color:red">pdf<span></a></p></li>
-
-<li><p>Rui Tanabe, Shogo Suzuki, <strong><strong><em>Yin Minn Pa Pa</em></strong></strong>, Katsunari Yoshioka, Tsutomu Matsumoto, Malware Expansion Interception Method Focused on Remote Takeover against Malware-infected Hosts, Journal of Information Processing, Japan, Vol.57, No.9, September, 2016.{Best Paper Award}.  <a href="https://ipsj.ixsq.nii.ac.jp/ej/index.php?active_action=repository_view_main_item_detail&amp;page_id=13&amp;block_id=8&amp;item_id=174669&amp;item_no=1"><span style="color:red">pdf<span></a></p></li>
-</ol>
-
-                
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="blog" id="blog">
-    <div class="container">
-        <div class="row center-xs">
-            <div class="col-xs-12"><h1>Latest Posts</h1></div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 posts-list">
-                
-                    <article>
-                        <h2><a href="https://www.yinminnpapa.com/blog/test/">Test</a></h2>
-                        <div class=sub-header>
-                          July 2017 · 1 minute read
-                        </div>
-                    </article>
-                
-            </div>
-        </div>
-        <div class="row center-xs">
-            <div class="col-xs-12"><h3><a href="https://www.yinminnpapa.com/blog/">View All</a></h3></div>
-        </div>
-    </div>
-</section>
-
-<section class="contact" id="contact">
-    <div class="container">
-        <div class="row center-xs">
-            <div class="col-xs-12"><h1>Let's Chat</h1></div>
-        </div>
-        <form id="form-contact" action="https://formspree.io/yinminpapa@gmail.com" method="POST">
-            <div class="row center-xs">
-                <div class="col-xs-12 col-sm-6"><input type="text" name="name" placeholder="Name" required></div>
-                <div class="col-xs-12 col-sm-6"><input type="email" name="email" placeholder="Email" required></div>
-                <div class="col-xs-12"><input type="text" name="_subject" placeholder="Subject" required></div>
-                <div class="col-xs-12"><textarea name="message" placeholder="Message" required></textarea></div>
-                <input type="text" name="_gotcha" style="display:none">
-                <input type="hidden" name="_next" value="/">
-                <div class="col-xs-6" id="form-submit"><input type="submit" value="Send"></div>
-                <div class="col-xs-12" id="form-thankyou" style="display:none;">Thanks for your email!</div>
-            </div>
-        </form>
-    </div>
-</section>
-
-        </main>
-        <footer class="row middle-xs center-xs">
-            
-            <div class="col-xs-3 col-md-2"><a href="https://github.com/yinminnpapa">GitHub</a></div>
-            
-            
-            
-            
-            <div class="col-xs-12">
-                
-                Copyright &copy; 2017 Yin Minn Pa Pa.
-                
-                
-            </div>
-            
-            
-            <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-            
-            <script src="https://www.yinminnpapa.com/scripts/index.js" type="text/javascript"></script>
-            
-            
-            <script>
-              $("#form-contact").on("submit", function(e) {
-                  e.preventDefault();
-
-                  
-                  var name = $("input[name=name]").val();
-                  var email = $("input[name=email").val();
-                  var subject = $("input[name=_subject").val();
-                  var message = $("input[name=message]").val();
-
-                  
-                  $.ajax({
-                      url:"https://formspree.io/yinminpapa@gmail.com",
-                      method:"POST",
-                      data:{
-                          name:name,
-                          _replyto:email,
-                          email:email,
-                          _subject:subject,
-                          message:message,
-                      },
-                      dataType:"json",
-                      success:function() {
-                          console.log("Form successfully sent");
-                          
-                          $("#form-contact").get(0).reset();
-                          
-                          $("#form-submit").fadeOut(function(){
-                              $("#form-thankyou").fadeIn(function(){
-                                  $("#form-thankyou").delay(4000).fadeOut(function(){
-                                      $("#form-submit").fadeIn();
-                                  });
-                              });
-                          });
-                      }
-                  });
-
-              });
-            </script>
-            
-            
-            <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/highlight.min.js"></script>
-        </footer>
-    </body>
+  
+</body>
 </html>
+
 
