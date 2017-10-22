@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on YMPP</title>
-    <link>https://yinminnpapa.github.io/tags/</link>
-    <description>Recent content in Tags on YMPP</description>
+    <title>Tags on Yin Minn Pa Pa</title>
+    <link>https://www.yinminnpapa.com/tags/</link>
+    <description>Recent content in Tags on Yin Minn Pa Pa</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en</language>
     
-	<atom:link href="https://yinminnpapa.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.yinminnpapa.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
