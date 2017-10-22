@@ -2,424 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="HandheldFriendly" content="True">
-    <meta name="MobileOptimized" content="320">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="referrer" content="no-referrer">
-    <base href="https://www.yinminnpapa.com">
-    
-
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400|Old+Standard+TT:400' rel='stylesheet' type='text/css'>
-
-    <link rel="icon" type="image/png" href="https://www.yinminnpapa.com/favicon_16x16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="https://www.yinminnpapa.com/favicon_32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://www.yinminnpapa.com/favicon_128x128.png" sizes="128x128">
-
-    <title>
-      
-      
-         Hello my Dear Reader! 
-      
-    </title>
-    <link rel="canonical" href="https://www.yinminnpapa.com/about/">
-
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="author" content="ymp">
+    <meta name="description" content="Hugo">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Mono&amp;subset=latin,cyrillic">
+    <link rel="stylesheet" href="/css/tachyons.css">
     <style>
-  * {
-    border:0;
-    font:inherit;
-    font-size:100%;
-    vertical-align:baseline;
-    margin:0;
-    padding:0;
-    color: black;
-    text-decoration-skip: ink;
-  }
-
-  @font-face{
-    font-family:'MyanmarUnicode';
-    src:url('../fonts/mmrCensus.v4.sh.mif.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-} 
-
-  body {
-    font-family:'MyanmarUnicode','Open Sans', 'Myriad Pro', Myriad, sans-serif;
-    font-size:20px;
-    line-height:160%;
-    color:#1d1313;
-    max-width:700px;
-    margin:auto;
-  }
-
-  p {
-    margin: 20px 0;
-  }
-
-  a img {
-    border:none;
-  }
-
-  img {
-    margin: 10px auto 10px auto;
-    max-width: 100%;
-    display: block;
-  }
-
-  .left-justify {
-    float: left;
-  }
-
-  .right-justify {
-    float:right;
-  }
-
-  pre, code {
-    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    background-color: #f7f7f7;
-  }
-
-  code {
-    font-size: 12px;
-    padding: 4px;
-  }
-
-  pre {
-    margin-top: 0;
-    margin-bottom: 16px;
-    word-wrap: normal;
-    padding: 16px;
-    overflow: auto;
-    font-size: 85%;
-    line-height: 1.45;
-  }
-
-  pre>code {
-    padding: 0;
-    margin: 0;
-    font-size: 100%;
-    word-break: normal;
-    white-space: pre;
-    background: transparent;
-    border: 0;
-  }
-
-  pre code {
-    display: inline;
-    max-width: auto;
-    padding: 0;
-    margin: 0;
-    overflow: visible;
-    line-height: inherit;
-    word-wrap: normal;
-    background-color: transparent;
-    border: 0;
-  }
-
-  pre code::before,
-  pre code::after {
-    content: normal;
-  }
-
-  em,q,em,dfn {
-    font-style:italic;
-  }
-
-  .sans,html .gist .gist-file .gist-meta {
-    font-family:"MyanmarUnicode","Open Sans","Myriad Pro",Myriad,sans-serif;
-  }
-
-  .mono,pre,code,tt,p code,li code {
-    font-family:"MyanmarUnicode",Menlo,Monaco,"Andale Mono","lucida console","Courier New",monospace;
-  }
-
-  .heading,.serif,h1,h2,h3 {
-    font-family:"MyanmarUnicode","Old Standard TT",serif;
-  }
-
-  strong {
-    font-weight:600;
-  }
-
-  q:before {
-    content:"\201C";
-  }
-
-  q:after {
-    content:"\201D";
-  }
-
-  del,s {
-    text-decoration:line-through;
-  }
-
-  blockquote {
-    font-family:"MyanmarUnicode","Old Standard TT",serif;
-    text-align:center;
-    padding:50px;
-  }
-
-  blockquote p {
-    display:inline-block;
-    font-style:italic;
-  }
-
-  blockquote:before,blockquote:after {
-    font-family:"MyanmarUnicode","Old Standard TT",serif;
-    content:'\201C';
-    font-size:35px;
-    color:#403c3b;
-  }
-
-  blockquote:after {
-    content:'\201D';
-  }
-
-  hr {
-    width:40%;
-    height: 1px;
-    background:#403c3b;
-    margin: 25px auto;
-  }
-
-  h1 {
-    font-size:35px;
-  }
-
-  h2 {
-    font-size:28px;
-  }
-
-  h3 {
-    font-size:22px;
-    margin-top:18px;
-  }
-
-  h1 a,h2 a,h3 a {
-    text-decoration:none;
-  }
-
-  h1,h2 {
-    margin-top:28px;
-  }
-
-  #sub-header, time {
-    color:#403c3b;
-    font-size:13px;
-  }
-
-  #sub-header {
-    margin: 0 4px;
-  }
-
-  #nav h1 a {
-    font-size:35px;
-    color:#1d1313;
-    line-height:120%;
-  }
-
-  .posts_listing a,#nav a {
-    text-decoration: none;
-  }
-
-  li {
-    margin-left: 20px;
-  }
-
-  ul li {
-    margin-left: 5px;
-  }
-
-  ul li {
-    list-style-type: none;
-  }
-  ul li:before {
-    content:"\00BB \0020";
-  }
-
-  #nav ul li:before, .posts_listing li:before {
-    content:'';
-    margin-right:0;
-  }
-
-  #content {
-    text-align:justify;
-    width:100%;
-    font-size:19px;
-    padding:60px 0 80px;
-  }
-
-  #content h1,#content h2 {
-    margin-bottom:5px;
-  }
-
-  #content h2 {
-    font-size:25px;
-  }
-
-  #content .entry-content {
-    margin-top:15px;
-  }
-
-  #content time {
-    margin-left:3px;
-  }
-
-  #content h1 {
-    font-size:30px;
-  }
-
-  .highlight {
-    margin: 10px 0;
-  }
-
-  .posts_listing {
-    margin:0 0 50px;
-  }
-
-  .posts_listing li {
-    margin:0 0 25px 15px;
-  }
-
-  .posts_listing li a:hover,#nav a:hover {
-    text-decoration: underline;
-  }
-
-  #nav {
-    text-align:center;
-    position:static;
-    margin-top:60px;
-  }
-
-  #nav ul {
-    display: table;
-    margin: 8px auto 0 auto;
-  }
-
-  #nav li {
-    list-style-type:none;
-    display:table-cell;
-    font-size:20px;
-    padding: 0 20px;
-  }
-
-  #links {
-    margin: 50px 0 0 0;
-  }
-
-  #links :nth-child(2) {
-    float:right;
-  }
-
-  #not-found {
-    text-align: center;
-  }
-
-  #not-found a {
-    font-family:"MyanmarUnicode","Old Standard TT",serif;
-    font-size: 200px;
-    text-decoration: none;
-    display: inline-block;
-    padding-top: 225px;
-  }
-
-  @media (max-width: 750px) {
-    body {
-      padding-left:20px;
-      padding-right:20px;
-    }
-
-    #nav h1 a {
-      font-size:28px;
-    }
-
-    #nav li {
-      font-size:13px;
-      padding: 0 15px;
-    }
-
-    #content {
-      margin-top:0;
-      padding-top:50px;
-      font-size:14px;
-    }
-
-    #content h1 {
-      font-size:25px;
-    }
-
-    #content h2 {
-      font-size:22px;
-    }
-
-    .posts_listing li div {
-      font-size:12px;
-    }
-  }
-
-  @media (max-width: 400px) {
-    body {
-      padding-left:20px;
-      padding-right:20px;
-    }
-
-    #nav h1 a {
-      font-size:22px;
-    }
-
-    #nav li {
-      font-size:12px;
-      padding: 0 10px;
-    }
-
-    #content {
-      margin-top:0;
-      padding-top:20px;
-      font-size:12px;
-    }
-
-    #content h1 {
-      font-size:20px;
-    }
-
-    #content h2 {
-      font-size:18px;
-    }
-
-    .posts_listing li div{
-      font-size:12px;
-    }
-  }
-</style>
-
-
-    
+        .geomicon { width: 1.5em; height: 1.5em; color: #405660; }
+        body{ font-family:'PT Sans', sans-serif; }
+    </style>
   </head>
-
   <body>
-    <section id=nav>
-      <h1><a href="https://www.yinminnpapa.com/">Yin Minn Pa Pa</a></h1>
-      <ul>
-        
-          <li><a href="https://www.yinminnpapa.com/about/">About</a></li>
-        
-          <li><a href="https://www.yinminnpapa.com/post/">Blog</a></li>
-        
-          <li><a href="https://www.yinminnpapa.com/publications/">Publications</a></li>
-        
-      </ul>
-    </section>
+      <header class="tc pal bb b-near-white">
+    <h1 class="f6 thin i link-child"><a href="/">Yin Minn Pa Pa</a></h1>
+        <nav>
+          <ul class="list pln">
+            <li class="dib prm"><a href="/"><span class="js-geomicon geomicon" data-icon="home"></span>Home</a></li>
+            <li class="dib prm"><a href="/post"><span class="js-geomicon geomicon" data-icon="compose"></span>Blog</a></li>
+            <li class="dib prm"><a href="/about"><span class="js-geomicon geomicon" data-icon="user"></span>About</a></li>
+            <li class="dib prm"><a href="/publications"><span class="js-geomicon geomicon" data-icon="compose"></span>Publications</a></li>
+          </ul>
+        </nav>
+        </header>
 
 
-<section id=content>
-  <h3> Hello my Dear Reader! </h3>
+  <main class="pal">
 
-  <div id=sub-header>
-    June 2017
-  </div>
-
-  <div class="entry-content">
-    <p>I am Yin Minn Pa Pa, originally from Myanmar and currently working at Japan as security researcher. I finished Dr.Eng. (Doctor of Engineering) in Information Science from Yokohama National University, Japan.This site is made to document my professional life and to help burmese students interested in information security.</p>
+    <h1>Hello my Dear Reader!</h1>
+    <h2>Jun 27, 2017</h2>
+      <p>I am Yin Minn Pa Pa, originally from Myanmar and currently working at Japan as security researcher. I finished Dr.Eng. (Doctor of Engineering) in Information Science from Yokohama National University, Japan.This site is made to document my professional life and to help burmese students interested in information security.</p>
 
 <p>You can find list of my research publications <a href="https://www.yinminnpapa.com/publications"><span style="color:red">here<span></a>.</p>
 
@@ -503,17 +116,25 @@
 
 <p>Yin Minn Pa Pa</p>
 
-  </div>
 
-  <div id=links>
-    
-    
-  </div>
-</section>
+  </main>
 
-  
-</body>
+<footer class="tc center bt b--near-white pvx phm pax-m phxl-l pvx-l">
+        <small class="f5 mw7 db center phm lh-copy">
+          <nav>
+              <ul class="list pln">
+                  <li class="dib prm"><a href="https://www.github.com"><span class="js-geomicon geomicon blue" data-icon="github"></span></a></li>
+                  <li class="dib prm"><a href="https://www.twitter.com"><span class="js-geomicon geomicon blue" data-icon="twitter"></span></a></li>
+              </ul>
+              </nav>
+              Copyright-  2017 - Yin Minn Pa Pa 
+        </small>
+    </footer>
+    <script src="http://d2v52k3cl9vedd.cloudfront.net/geomicons/0.2.0/geomicons.min.js.gz"></script>
+    <script>
+        var icons = document.querySelectorAll('.geomicon');
+        Geomicons.inject(icons);
+    </script>
+  </body>
 </html>
-
-
 

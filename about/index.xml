@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on YMPP</title>
+    <link>http://yinminnpapa.github.io/about/</link>
+    <description>Recent content in Abouts on YMPP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 21 Jul 2017 00:35:25 +0900</lastBuildDate>
+    
+	<atom:link href="http://yinminnpapa.github.io/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://yinminnpapa.github.io/about/about/</link>
+      <pubDate>Fri, 21 Jul 2017 00:35:25 +0900</pubDate>
+      
+      <guid>http://yinminnpapa.github.io/about/about/</guid>
+      <description>Dear Reader,
+I am Yin Minn Pa Pa, originally from Myanmar and currently working at Japan as security researcher.
+I finished my Ph.D in engineering from Yokohama National University, Japan.
+My research interests include:
+ Network security Malware Analysis IoT security Web security  This site is made to document what I learnt and share it to burmese learners.
+I would be happy if someone learn something from here.
+Thanks for reading!</description>
+    </item>
+    
+  </channel>
+</rss>

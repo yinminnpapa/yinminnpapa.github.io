@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Yin Minn Pa Pa</title>
-    <link>https://www.yinminnpapa.com/</link>
-    <description>Recent content on Yin Minn Pa Pa</description>
+    <title>YMPP</title>
+    <link>http://www.yinminnpapa.com/</link>
+    <description>Recent content on YMPP</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>en-us</language>
     <lastBuildDate>Sun, 22 Oct 2017 16:39:37 +0900</lastBuildDate>
     
-	<atom:link href="https://www.yinminnpapa.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.yinminnpapa.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>ကွန်ပျူတာ Security ဘာသာရပ်နှင့်ပတ်သက်လို့ </title>
-      <link>https://www.yinminnpapa.com/post/concerning_with_security/</link>
+      <link>http://www.yinminnpapa.com/post/concerning_with_security/</link>
       <pubDate>Sun, 22 Oct 2017 16:39:37 +0900</pubDate>
       
-      <guid>https://www.yinminnpapa.com/post/concerning_with_security/</guid>
+      <guid>http://www.yinminnpapa.com/post/concerning_with_security/</guid>
       <description>&lt;h4 id=&#34;၁-ဘ-လ-လ-လ-သင-တ-လ&#34;&gt;၁။ ဘာလို့ လေ့လာသင့်တာလဲ&lt;/h4&gt;
 
 &lt;p&gt;အင်တာနက်ချိတ်ဆက်ပြီး သတင်းအချက်အလက်တွေရှာတယ်၊ ဈေး၀ယ်တယ်၊ ငွေလွှဲတယ်၊ ဆည်တွေထိန်းချုပ်တယ် စတဲ့  အစိုးရလုပ်ငန်း စီးပွားရေးလုပ်ငန်းတွေကို ကွန်ပျူတာပေါ်မှာ စိတ်ချရုံကြည်စွာ လုပ်နိုင်ဘို့ နဲ့ ကွန်ပျူတာ အသုံးပြုသူတွေကိုအားလုံးကို ကူညီနိုင်ဘို့ ကွန်ပျူတာ Security ဘာသာရပ်ကို လေ့လာသင့်ပါတယ်။&lt;/p&gt;
@@ -26,10 +26,10 @@
     
     <item>
       <title>Publications</title>
-      <link>https://www.yinminnpapa.com/publications/</link>
+      <link>http://www.yinminnpapa.com/publications/</link>
       <pubDate>Sat, 22 Jul 2017 10:43:29 +0900</pubDate>
       
-      <guid>https://www.yinminnpapa.com/publications/</guid>
+      <guid>http://www.yinminnpapa.com/publications/</guid>
       <description>Yin Minn Pa Pa, Katsunari Yoshioka, Tsutomu Matsumoto “ Search Engine Based Investigation on Misconfiguration of Zone Transfer”, International Workshop on Security (IWSEC-2012), Fukuoka, Japan, 2012 November, {POSTER}. pdf
  Yin Minn Pa Pa, Katsunari Yoshioka, Tsutomu Matsumoto &amp;ldquo;Search Engine Based Investigation on Misconfiguration of Zone Transfer”, Asia Joint Conference on Information Security (Asia-JCIS), Seoul, Korea, 2013 July.{Best Paper Award} pdf
  Yin Minn Pa Pa, Daisuke Makita, Katsunari Yoshioka, Tsutomu Matsumoto “Finding Malicious Authoritative DNS server”, Information and Communication System Security (ICSS), Yokohama, Japan, 2013 March.</description>
@@ -37,10 +37,10 @@
     
     <item>
       <title>Hello my Dear Reader!</title>
-      <link>https://www.yinminnpapa.com/about/</link>
+      <link>http://www.yinminnpapa.com/about/</link>
       <pubDate>Tue, 27 Jun 2017 17:39:21 -0700</pubDate>
       
-      <guid>https://www.yinminnpapa.com/about/</guid>
+      <guid>http://www.yinminnpapa.com/about/</guid>
       <description>I am Yin Minn Pa Pa, originally from Myanmar and currently working at Japan as security researcher. I finished Dr.Eng. (Doctor of Engineering) in Information Science from Yokohama National University, Japan.This site is made to document my professional life and to help burmese students interested in information security.
 You can find list of my research publications here.
 Following is brief about me.
