@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="author" content="Marlon Cabrera Oliveira">
+    <meta name="description" content="Hugo theme using tachyons.io & geomicons.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic|PT+Mono&amp;subset=latin,cyrillic">
+    <link rel="stylesheet" href="https://www.yinminnpapa.com/css/tachyons.css">
+    <style>
+        .geomicon { width: 1.5em; height: 1.5em; color: #405660; }
+        body{ font-family:'PT Sans', sans-serif; }
+    </style>
+  </head>
+  <body>
+      <header class="tc pal bb b-near-white">
+    <h1 class="f6 thin i link-child"><a href="https://www.yinminnpapa.com/">Yin Minn Pa Pa</a></h1>
+        <nav>
+          <ul class="list pln">
+            <li class="dib prm"><a href="https://www.yinminnpapa.com/"><span class="js-geomicon geomicon" data-icon="home"></span>Home</a></li>
+            <li class="dib prm"><a href="https://www.yinminnpapa.com/post"><span class="js-geomicon geomicon" data-icon="compose"></span>Blog</a></li>
+            <li class="dib prm"><a href="https://www.yinminnpapa.com/about"><span class="js-geomicon geomicon" data-icon="user"></span>About</a></li>
+            <li class="dib prm"><a href="https://www.yinminnpapa.com/publications"><span class="js-geomicon geomicon" data-icon="compose"></span>Publications</a></li>
+          </ul>
+        </nav>
+        </header>
+
+
+  <main class="pal">
+
+    <h1>Application Security ဆိုတာ</h1>
+    <h2>Nov 4, 2017</h2>
+      <p>ကွန်ပျူတာမှာ မရှိမဖြစ်သုံးတဲ့ application (သို့မဟုတ်) software တွေမှာ security နှင့်ပတ်သက်လို့ ဘယ်လို အားနည်းချက်တွေရှိတယ်၊ ဒီအားနည်းချက်ကို သုံးပြီး ဟက်ကာက ဘယ်လိုမျိုး Hack လုပ်နိုင်မယ်၊ ဘယ်လိုကာကွယ်နိုင်မယ် ဆိုတာတွေကို လေ့လာတာပါ။ TCP/IP layer 4 မှာရှိတဲ့ application အားလုံးရဲ့ security နဲ့ သက်ဆိုင်ပါတယ်။
+</p>
+
+<p>Application Security မှာ ကိုယ်ရေးကိုယ်တာ လုပ်ငန်းတွေအတွက်သုံးတဲ့ personal ကွန်ပျူတာ၊ ဖုန်း၊ Tablet စတာတွေမှာတင်ထားတဲ့ application တွေ ( ဥပမာအားဖြင့် word, excel, game ) နှင့် OS(Operating System) တွေ ( ဥပမာအားဖြင့် Android, Windows, Linux, Apple IOS )၊ အင်တာနက် မှာ မရှိမဖြစ်လိုအပ်တဲ့  ဆာဗာ ကွန်ပျူတာတွေ မှာသုံးတဲ့ server application တွေ ( ဥပမာအားဖြင့် Apache, BIND, SQL )၊ IoT (Internet of Things) လို့ခေါ်တဲ့ အင်တာနက်နှင့် ချိတ်ဆက်ထားတဲ့ အသေးစားကွန်ပျူတာစနစ် ထည့်သွင်းထားတဲ့ ပစ္စည်းတွေ ဖြစ်တဲ့ router တွေ၊ CCTV ကင်မရာတွေ၊ robot တွေမှာသုံးတဲ့ application စတာတွေ အားလုံးရဲ့ security ပိုင်းဆိုင်ရာ အားနည်းချက်ကို လေ့လာတာတွေ အားလုံး အကျုံး၀င်ပါတယ်။</p>
+
+<p>တစ်ကယ်တန်းတော့ ကွန်ပျူတာ Virus ဆိုတာလည်း sofware တစ်ခုပါပဲ။ Static Malware Analysis လို့ခေါ်တဲ့ ကွန်ပျူတာ Virus တွေကဘယ်လို အလုပ်လုပ်တယ်၊ ဘယ်လိုလုပ်ရင် Virus ၀င်နေတာကို သိနိုင်မယ်၊ ဘယ်လို ကာကွယ်နိုင်မလဲ ဆိုပြီး ကွန်ပျူတာ Virus Software ကို အသေးစိတ် လေ့လာတာလည်း ဒီဘာသာရပ်ထဲမှာ အကျုံး၀င်ပါတယ်။</p>
+
+<p>ဒါအပြင် အခု ခေတ်မှာ အင်တာနက် ပေါ်မှာ စာပို့တယ်၊ အရောင်းအ၀ယ်လုပ်ကြတယ်၊ အစည်းအဝေးလုပ်တယ်၊ အလုပ်လျှောက်တယ်၊ ငွေလွှဲတယ် စသဖြင့် လုပ်ငန်းတွေလုပ်လာတဲ့ အခါမှာ အဓိကအားဖြင့် web application အမျိုးမျိုး သုံးလာကြတယ် ( ဥပမာအားဖြင့် facebook, gmail, paypal ) စတာတွေပါ၊ ဟက်ကာတွေကလည်း ဒီ web application တွေရဲ့ အားနည်းချက်ကို အခြေခံပြီး Haking အမျိုးမျိုး လုပ်လာကြတယ်။ web application အမျိုးအစား နှင့် attack လုပ်ပုံ လုပ်နည်းတွေ အမျိုးမျိုးရှိတာမို့  web application security ကိုပဲ အထူးပြု လေ့လာသူတွေလည်းရှိတယ်။</p>
+
+<h4 id="application-security-ဘ-သ-ရပ-မ-မသ-မဖ-စ-လ-လ-သင-တ-တ"><strong>Application Security ဘာသာရပ်မှာ မသိမဖြစ်လေ့လာသင့်တာတွေ</strong></h4>
+
+<p>အခြေခံ အားဖြင့် လေ့လာသင့်တွေကို အောက်မှာ list လုပ်ထားပါတယ်။</p>
+
+<ul>
+<li>ကွန်ပျူတာ OS အလုပ်လုပ်ပုံ</li>
+<li>Memory အကြောင်း</li>
+<li>C programming အခြေခံ</li>
+<li>ကွန်ပျူတာ program အလုပ်လုပ်ပုံ<br /></li>
+<li>Insecure Programming နှင့်ပတ်သက်လို့</li>
+<li>Assembly (X86) language အကြောင်း</li>
+<li>Anti Debugging Techniques<br /></li>
+<li>CVE (Common Vulnerability and Exposure) ဆိုတာ</li>
+<li>Web Applications အလုပ်လုပ်ပုံ</li>
+<li>Web Based Attacks တွေအကြောင်း</li>
+<li>Binary Exploit လုပ်ပုံ</li>
+<li>Encoding Methods တွေ</li>
+<li>Web Application Exploit လုပ်ပုံ<br /></li>
+<li>Source Code Auditing</li>
+<li>Binary Auditing</li>
+<li>Web application Auditing  စတာတွေ သိသင့်ပါတယ်။<br /></li>
+</ul>
+
+<p>Application Security နှင့်ပတ်သက်ပြီး အင်တာနက်မှာ တော်တော်များများ သင်ယူ နိုင်ပါတယ်။  wargame တို့ CTF တို့ စတဲ့ game တွေကစားရင်းနဲ့ application security ပိုင်းဆိုင်ရာအခြေခံတွေကို လေ့လာနိုင်ပါတယ်။ ဒီ <a href="https://trailofbits.github.io/ctf/">link</a> မှာ တော်တော်များများ စုထားတာမို့ မိမိကိုယ်တိုင် လေ့လာကြည့်ပါ။ Application Security ပိုင်းဆိုင်ရာ tutorial တွေ တင်နိုင်အောင်လည်းကြိုးစားပါမယ်။</p>
+
+<h4 id="ဟက-က-တ-က-ဘယ-လ-attack-လ-ပ-လ"><strong>ဟက်ကာတွေက ဘယ်လို Attack လုပ်လဲ</strong></h4>
+
+<p>Application Security နှင့်ပတ်သက်ပြီး တွေ့ရတဲ့ attack နည်းလမ်းအချို့ ကိုအောက်မှာ list လုပ်ထားပါတယ်။</p>
+
+<ul>
+<li>DoS (Denial of Service) လို့ ခေါ်တဲ့ နည်းနဲ့ application အားနည်းချက်ကို အခြေခံပြီး ကွန်ပျူတာကို ဖျက်စီးတာ</li>
+<li>Application ရဲ့ authentication control အားနည်းချက်ကို အခြေခံပြီး ကွန်ပျူတာကို ချိုးဖောက်တာ</li>
+<li>Application ရဲ့ privilege control အားနည်းချက်ပေါ်အခြေခံပြီး ကွန်ပျူတာကို ထိန်းချုပ်တာ</li>
+<li>Application ရဲ့ input control အားနည်းချက်ပေါ်အခြေခံပြီး ကွန်ပျူတာ သုံးသူတွေရဲ့ အကောင့် တွေခိုးတာ</li>
+<li>Injection လို့ ခေါ်တဲ့ Database application ရဲ့အားနည်းချက်ကို ရှာပြီး Data တွေခိုးယူတာ၊  Data အမှားတွေထည့်တာ</li>
+<li>Defacing လို့ ခေါ်တဲ့ web page တွေမှာ မသင့်တော်တဲ့ ပုံတွေ စာတွေ ထည့်ပြီး သရုပ်ဖျက်တာ စသဖြင့် အမျိုးမျိုး ရှိပါတယ်။</li>
+</ul>
+
+<h4 id="ဟက-က-တ-ရန-ကန-ဘယ-လ-က-က-ယ-န-င-မလ"><strong>ဟက်ကာတွေ ရန်ကနေ ဘယ်လို ကာကွယ်နိုင်မလဲ</strong></h4>
+
+<ul>
+<li>Application ကို အသုံးမပြုခင်မှာ Auditing လုပ်ခြင်း</li>
+<li>Fuzzing လို့ ခေါ်တဲ့နည်းနဲ့ application ရဲ့ ခံနိုင်စွမ်းကို စမ်းသပ်ခြင်း</li>
+<li>Malware Analysis လုပ်ပြီး  Virus ၀င်နိုင်မယ့် အားနည်းချက်ကို ကာကွယ်ခြင်း</li>
+<li>Patch လုပ်ခြင်းလို့ ခေါ်တဲ့ application နှင့် ဆိုင်တဲ့ software update ကိုပြုလုပ်ခြင်း စတာတွေပါ၀င်ပါတယ်။</li>
+</ul>
+
+<h4 id="အလ-ပ-အက-င-အမ-အစ-တ-ကတ"><strong>အလုပ်အကိုင်အမျိုး အစားတွေကတော့</strong></h4>
+
+<ul>
+<li>Malware Analyst</li>
+<li>Web Security Specialist</li>
+<li>Application Audits/ Assessments</li>
+<li>Researcher</li>
+<li>Web Application Pentester စတာတွေပါ။</li>
+</ul>
+
+<p>များများလေ့လာပါ။ မိမိကိုယ်တိုင်သင်ယူပါ။ ကျွမ်းကျင်သူများဖြစ်ကြပါစေ။</p>
+
+  </main>
+
+<footer class="tc center bt b--near-white pvx phm pax-m phxl-l pvx-l">
+        <small class="f5 mw7 db center phm lh-copy">
+          <nav>
+              <ul class="list pln">
+                  <li class="dib prm"><a href="https://www.github.com"><span class="js-geomicon geomicon blue" data-icon="github"></span></a></li>
+                  <li class="dib prm"><a href="https://www.twitter.com"><span class="js-geomicon geomicon blue" data-icon="twitter"></span></a></li>
+              </ul>
+              </nav>
+              Copyright-Yin Minn Pa Pa
+        </small>
+    </footer>
+    <script src="http://d2v52k3cl9vedd.cloudfront.net/geomicons/0.2.0/geomicons.min.js.gz"></script>
+    <script>
+        var icons = document.querySelectorAll('.geomicon');
+        Geomicons.inject(icons);
+    </script>
+  </body>
+</html>
+
