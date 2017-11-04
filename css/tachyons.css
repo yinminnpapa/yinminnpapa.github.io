@@ -48,7 +48,7 @@ audio:not([controls]) {
  *    user zoom.
  */
 html {
-  font-family: "MyanmarUnicode", sans-serif;
+  font-family: 'MyanmarUnicode', sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -130,7 +130,7 @@ mark {
  * Correct font family set oddly in Safari 5 and Chrome.
  */
 code, kbd, pre, samp {
-  font-family: "MyanmarUnicode", monospace, serif;
+  font-family: 'MyanmarUnicode', monospace, serif;
   font-size: 1em; }
 
 /**
@@ -217,7 +217,7 @@ legend {
  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
  */
 button, input, select, textarea {
-  font-family: "MyanmarUnicode", inherit;
+  font-family: 'MyanmarUnicode', inherit;
   /* 1 */
   font-size: 100%;
   /* 2 */
@@ -1299,28 +1299,28 @@ div, article, section, main, footer, header, form, fieldset, pre, code, p, input
 
 */
 body, .sans-serif {
-  font-family: "MyanmarUnicode", 'avenir next', avenir, helvetica, 'helvetica neue', arial, sans-serif; }
+  font-family: 'MyanmarUnicode', 'avenir next', avenir, helvetica, 'helvetica neue', arial, sans-serif; }
 
 .open-sans {
-  font-family: "MyanmarUnicode", "Open sans", sans-serif; }
+  font-family: 'MyanmarUnicode', "Open sans", sans-serif; }
 
 .serif {
-  font-family: "MyanmarUnicode", "Calisto MT", georgia, serif; }
+  font-family: 'MyanmarUnicode', "Calisto MT", georgia, serif; }
 
 .code, code {
-  font-family: "MyanmarUnicode", Consolas, monaco, monospace; }
+  font-family: 'MyanmarUnicode', Consolas, monaco, monospace; }
 
 .serif-bodini {
-  font-family: "MyanmarUnicode", "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; }
+  font-family: 'MyanmarUnicode', "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; }
 
 .serif-calisto {
-  font-family: "MyanmarUnicode", "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif; }
+  font-family: 'MyanmarUnicode', "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif; }
 
 .serif-garamond {
-  font-family: "MyanmarUnicode", Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; }
+  font-family: 'MyanmarUnicode', Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif; }
 
 .serif-times {
-  font-family: "MyanmarUnicode", TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; }
+  font-family: 'MyanmarUnicode', TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; }
 
 /*
 
