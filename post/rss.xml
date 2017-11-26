@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Yin Minn Pa Pa</title>
+    <link>https://www.yinminnpapa.com/post/</link>
+    <description>Recent content in Posts on Yin Minn Pa Pa</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 26 Nov 2017 14:37:39 +0900</lastBuildDate>
+    
+        <atom:link href="https://www.yinminnpapa.com/post/rss.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Security ဘာသာရပ် မှ research field အချို့</title>
+      <link>https://www.yinminnpapa.com/post/research_fiels/</link>
+      <pubDate>Sun, 26 Nov 2017 14:37:39 +0900</pubDate>
+      
+      <guid>https://www.yinminnpapa.com/post/research_fiels/</guid>
+      <description>&lt;p&gt;Security ဘာသာရပ်ကို research လုပ်ချင်တဲ့ ကျောင်းသားများ၊ self study လုပ်နေသူများအတွက် ရည်ရွယ်ပါတယ်။ မိမိ သိသလောက် security နှင့် ပတ်သက်တဲ့ research field အချို့ကို ပြောပြချင်ပါတယ်။ Thesis Title အတွက် ဘာလုပ်ရင်ကောင်းမလဲ စဥ်းစားတဲ့အခါ ဖြစ်စေ၊ security ဘာသာရပ်ကို စိတ်ဝင်စားလို့ ဘာကို ဘယ်လို လေ့လာသင့်တယ် ဆုံးဖြတ်တဲ့အခါ ဖြစ်စေ နည်းနည်းဖြစ်ဖြစ် အထောက်အကူ ဖြစ်စေချင်လို့ပါ။&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Thesis စာတန်း ဘယ်လို ရေးရမှာလဲ</title>
+      <link>https://www.yinminnpapa.com/post/howto_research/</link>
+      <pubDate>Sat, 18 Nov 2017 19:25:55 +0900</pubDate>
+      
+      <guid>https://www.yinminnpapa.com/post/howto_research/</guid>
+      <description>&lt;p&gt;ကျောင်းသားဘဝတုန်းက သိပ်သိချင်ခဲ့တဲ့ မေးခွန်း တစ်ခုပါ။ လက်ရှိ တက္ကသိုလ် ကျောင်းသား ကျောင်းသူများလည်း သိချင်မယ် ထင်ပါတယ်။ Bachelor ဘွဲ့ အတွက် Project, Master ဘွဲ့ အတွက် Thesis, Doctor ဘွဲ့ အတွက် Dissertation စသဖြင့် စာတန်း အမျိုးမျိုး ရေးကြရပါတယ်။ ဒီအတွက် ဘယ်က ဘယ်လို စရင် ကောင်းမလဲ မသိ ဖြစ်တတ်ကြပါတယ်။ မိမိသိသလောက် ပြန်လည်ဝေငှ ပါတယ်။&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Application Security ဆိုတာ</title>
+      <link>https://www.yinminnpapa.com/post/applicationsecurity/</link>
+      <pubDate>Sat, 04 Nov 2017 17:14:04 +0900</pubDate>
+      
+      <guid>https://www.yinminnpapa.com/post/applicationsecurity/</guid>
+      <description>&lt;p&gt;ကွန်ပျူတာမှာ မရှိမဖြစ်သုံးတဲ့ application (သို့မဟုတ်) software တွေမှာ security နှင့်ပတ်သက်လို့ ဘယ်လို အားနည်းချက်တွေရှိတယ်၊ ဒီအားနည်းချက်ကို သုံးပြီး ဟက်ကာက ဘယ်လိုမျိုး Hack လုပ်နိုင်မယ်၊ ဘယ်လိုကာကွယ်နိုင်မယ် ဆိုတာတွေကို လေ့လာတာပါ။ TCP/IP layer 4 မှာရှိတဲ့ application အားလုံးရဲ့ security နဲ့ သက်ဆိုင်ပါတယ်။
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Network Security ဆိုတာ</title>
+      <link>https://www.yinminnpapa.com/post/networksecurity/</link>
+      <pubDate>Sat, 04 Nov 2017 17:13:55 +0900</pubDate>
+      
+      <guid>https://www.yinminnpapa.com/post/networksecurity/</guid>
+      <description>&lt;p&gt;Network ချိတ်ဆက်ထားတဲ့ ကွန်ပျူတာ၊ ဖုန်း၊ IoT၊ connected car စတာတွေကို network ကနေတစ်ဆင့် ဟက်ကာတွေက ဘယ်လို မတရား ၀င်ရောက်နိုင်တယ်၊ သူတို့ ၀င်လာတာကို ဘယ်လိုစောင့်ဖမ်းမယ်၊ မ၀င်နိုင်အောင် ဘယ်လို ကာကွယ်မယ် စသဖြင့် လေ့လာတဲ့ ဘာသာရပ်ပါ။&lt;/p&gt;
+
+&lt;p&gt;အင်တာနက် (International Network)၊ WAN (Wide Area Network)၊ LAN (Local Area Network) စတဲ့ network အမျိုးမျိုးမှာ   Virus တွေပွားပုံ၊ ကွန်ပျူတာအချင်းချင်း တိုက်ခိုက်ပုံ၊ ပိတ်ဆို့ထားတဲ့  network ကိုချိုးဖောက်ထွက်ပုံ၊ ၀င်ရောက်ပုံ၊ Dynamic Malware Analysis လို့ခေါ်တဲ့ ကွန်ပျူတာ Virus တွေဟာ Virus ကူးဆက်ခံထားရတဲ့ စက်ကနေ ဟက်ကာဆီကို သတင်း အမျိုးမျိုး ပေးပို့ပုံတွေ လေ့လာတာလည်း ပါဝင်ပါတယ်။&lt;/p&gt;
+
+&lt;p&gt;Wire နှင့်ချိတ်ဆက်ထားတဲ့ network အပြင် Wireless Network တွေရဲ့ security နှင့် သက်ဆိုင်တဲ့ အကြောင်းအရာတွေကို လေ့လာတာလည်း ဒီဘာသာရပ်မှာ အကျုံးဝင်ပါတယ်။&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>ကွန်ပျူတာ Security ဘာသာရပ်နှင့်ပတ်သက်လို့ </title>
+      <link>https://www.yinminnpapa.com/post/concerning_with_security/</link>
+      <pubDate>Sun, 22 Oct 2017 16:39:37 +0900</pubDate>
+      
+      <guid>https://www.yinminnpapa.com/post/concerning_with_security/</guid>
+      <description>&lt;h4 id=&#34;၁-ဘ-လ-လ-လ-သင-တ-လ&#34;&gt;၁။ ဘာလို့ လေ့လာသင့်တာလဲ&lt;/h4&gt;
+
+&lt;p&gt;အင်တာနက်ချိတ်ဆက်ပြီး သတင်းအချက်အလက်တွေရှာတယ်၊ ဈေး၀ယ်တယ်၊ ငွေလွှဲတယ်၊ ဆည်တွေထိန်းချုပ်တယ် စတဲ့  အစိုးရလုပ်ငန်း စီးပွားရေးလုပ်ငန်းတွေကို ကွန်ပျူတာပေါ်မှာ စိတ်ချရုံကြည်စွာ လုပ်နိုင်ဘို့ နဲ့ ကွန်ပျူတာ အသုံးပြုသူတွေကိုအားလုံးကို ကူညီနိုင်ဘို့ ကွန်ပျူတာ Security ဘာသာရပ်ကို လေ့လာသင့်ပါတယ်။&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
